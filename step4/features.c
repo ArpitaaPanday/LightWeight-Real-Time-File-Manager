@@ -4,6 +4,7 @@
 #include <time.h>           // time_t, time(), ctime()
 #include <sys/inotify.h>    // struct inotify_event, IN_CREATE, etc.
 #include <unistd.h>         // close()
+//
 
 // Function to log event details into file
 void log_event_to_file(struct inotify_event *event, FILE *logfile) {
